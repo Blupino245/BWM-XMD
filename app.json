@@ -8,13 +8,13 @@
   "succes_url":"/",
   "stack":"heroku-24",
   "env":{
-    "PREFIX":
+    "PREFIX":"!"
     {
       "description":"choose your prefix for your bot",
       "value":".",
       "required":true
     },
-"AUTO_REACT":
+"AUTO_REACT":"no"
     {
       "description":"Enter yes for your bot to auto react",
       "value":"no",
@@ -75,7 +75,7 @@
       "required":false
     }
     ,
-    "BOT_NAME" : {
+    "BOT_NAME" : {"BINDER"}
        
       "description":"put A name for your bot",
       "value":"BWM-XMD",
@@ -89,7 +89,7 @@
       "required":false
        
      },
-    "PUBLIC_MODE":
+    "PUBLIC_MODE":"yes" 
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"yes",
@@ -105,7 +105,7 @@
      "required" :false
     }  
 	  ,
-    "NUMERO_OWNER":
+    "NUMERO_OWNER":"919074525608"
     {
       
     "description":"Enter here the number that is hosting the bot Eg, 254xxxxxxx",   
@@ -113,14 +113,14 @@
     "required":true
       
     },
-    "OWNER_NAME":
+    "OWNER_NAME":"blinder"
     {
     
     "desc": "Owner name",
     "required": false,
     "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
   },
-    "SESSION_ID":{
+    "SESSION_ID":{"BWM-XMD;;;H4sIAAAAAAAAA5VUSY+jOBj9L76S6rAGiFTSELKQHUJIQUZ9MGDAQICAgZBS/vuIWtR1mO6p4WQBfn5+y/cKshxXaI06MH4FRYkbSFC/JF2BwBhM6iBAJRgAHxIIxkDRs2O1CCKr5NMmbqOJTFMz10+Wah7xU0U7oY2Tk3B4minP4DEARe2m2PsD4DWtz/VF3DTGfL44EEdU0T48tqrdEW5Sa5pL1dxlZbHdvXoGjx4R4hJn4ayI0AWVMF2jToe4/B59ai9tVnsnDO+5gNY3XzA7z+mEdTBrDsfFfknzdJy4lSksZt+jTyDl7u68Yk61iNVOjVwztI8i21no3anRHbuI8Ik9rAMjeadf4TBD/tJHGcGk+7bu0loNpwljZ3MhwIXIHqc2tTWaK3Pk+chQIs7t0rgThfzCf4/4zaBP9oyNXbmR28g1NafVbGou7qh6lRdJWSe7KbOzGW2afyWul59ZSf6P7ng+DLMLZYvr9d7AdfTi3tXQr8Xtneh5JayXw+y2nalWyTrfoy+OyN3VlONhW2/vR7VR53d5w5u3g6HX5ztnWPXmQiPDD9vwF31I6vJPLPlNXjXxmhLnXZCeBEPc7/RSwNfRvDHa7n4wT1pxpUo9D6X2Si+zg7lLrroy8q0SN1Q8Os9pW2dniDodOvlaXzXS+mH7/HajBHVLH4yZxwCUKMQVKSHBeda/Y2l+AKDfmMgrEXmTF9i7feMP6aZ9kdpMWJLAVFnTZKL2bHE2NaHEACrrfSfJx+oZDEBR5h6qKuRruCJ52W1RVcEQVWD8988ByNCNvBvXH8cxAxDgsiJWVhdpDv1PVz8/Qs/L64yYXeap/QKVYEz/eo0IwVlY9TrWGSy9CDdIjSCpwDiAaYUeA+CjBnuoxwOLu5XGJlkYuIYvzt6pTu7SUXrKUZ69/yLLkseN2OAJCgx84hErPUmczDxxEkcLNMcHgsSDAcAfnen3/NZC9zrLAjkJ7X21XXObIV8O3RChozBq32x41x6VyAdjUtZoAFzoJXVxzBOU/QG3bXNThdZNOMm8c7idp3FYxyEnvKTbL7jvnoLx6685peZ+jydJk7ltmCMwAJe3COK3mzMyLfICK4xoaSxwf1U/2l5IWBQ/MkR63A/R+x0+IhCnFRgDVYehiGbqbAnno027WCjbUFHDXtVPkz7T/p4mA7/sLfPOUWct9NCoicIubic3F22Sw/Eqr8xcIOaVjpk0f/4XkB4hr+t1uueT0pZ24srh9E2Dd7UeE+s8nK0Zmb2vGPMQdLRolPlomTErKHdxOZJX3og5mYc5mUZ1M6zSE1UXhhMi5zTpq/EZlq+HSZLMnv3hXhDOyUovTo4enzmdYumJtyTTSHuxCi7ZrDfDGzQv+2kZuPdKMXPFmPNJhk3T44dxt7unWWPakPVzJTlKUfjew7c5kH7MX/zWkNePaAUYvY2zDPYW/Zc5X1NOPwZfMD4G5G+SNLGWaZzOKnl4OfCaVpe8s80lxXvhsDCzRo1pXfeudSVL+QzB4/FzAIoUkiAvL2AMYOaXOfbBAKSwIsqvoh7xBVUEXgowZkROYvgRL7ADcOmUojAJJJ/9Bkr/bC8xePwDtA0SSPsHAAA="
     "description":"put your session ID , the code you received from from ibrahim adams site",   
       "value":"",
      "required":true
